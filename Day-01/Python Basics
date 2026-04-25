@@ -1,0 +1,24 @@
+# Python Basics 🐍
+
+## Variables
+name = "Ganesh"    # text
+age = 21           # number
+price = 9.5        # decimal
+is_student = True  # yes/no
+
+## Print
+print("Hello!")
+print(f"I am {name}")
+
+## Input
+name = input("Your name: ")
+
+## If/Else
+if age >= 18:
+    print("Adult")
+else:
+    print("Kid")
+
+## Loop
+for i in range(5):
+    print(i)
