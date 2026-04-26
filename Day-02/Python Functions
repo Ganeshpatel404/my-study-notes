@@ -1,0 +1,17 @@
+# Python Functions 🔧
+
+## Basic Function
+def greet():
+    print("Hello!")
+
+greet()  # call it
+
+## With Parameters
+def add(a, b):
+    return a + b
+
+print(add(5, 3))  # 8
+
+## Lambda
+square = lambda x: x * x
+print(square(4))  # 16
