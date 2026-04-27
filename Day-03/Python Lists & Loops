@@ -1,0 +1,20 @@
+# Lists & Loops 📋
+
+## List
+fruits = ["Apple", "Mango", "Banana"]
+print(fruits[0])   # Apple
+print(len(fruits)) # 3
+
+## Add/Remove
+fruits.append("Orange")
+fruits.remove("Apple")
+
+## Loop through list
+for fruit in fruits:
+    print(fruit)
+
+## List shortcuts
+numbers = [1,2,3,4,5]
+print(sum(numbers))  # 15
+print(max(numbers))  # 5
+print(min(numbers))  # 1
