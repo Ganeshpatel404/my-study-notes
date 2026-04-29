@@ -1,0 +1,23 @@
+# Dictionary 📖
+
+## Create
+student = {
+    "name": "Ganesh",
+    "age": 21,
+    "grade": "A"
+}
+
+## Access
+print(student["name"])  # Ganesh
+
+## Add/Update
+student["city"] = "Mumbai"
+student["age"] = 22
+
+## Loop
+for key, value in student.items():
+    print(f"{key}: {value}")
+
+## Check key exists
+if "name" in student:
+    print("Found!")
