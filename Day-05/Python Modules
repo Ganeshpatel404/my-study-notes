@@ -1,0 +1,22 @@
+# Python Modules 📦
+
+## Random
+import random
+print(random.randint(1, 10))
+print(random.choice(["A","B","C"]))
+
+## Math
+import math
+print(math.pi)       # 3.14
+print(math.sqrt(16)) # 4.0
+
+## DateTime
+from datetime import datetime
+now = datetime.now()
+print(now.day)
+print(now.month)
+print(now.year)
+
+## OS
+import os
+print(os.getcwd())  # current folder
