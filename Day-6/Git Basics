@@ -1,0 +1,19 @@
+# Git Basics 🔧
+
+## Setup
+git config --global user.name "Ganesh"
+git config --global user.email "email"
+
+## Daily Commands
+git init          # start git
+git status        # check changes
+git add .         # stage all
+git commit -m ""  # save snapshot
+git push          # upload
+git pull          # download
+git clone <url>   # copy repo
+
+## Workflow
+Working → git add → Staging
+Staging → git commit → Saved
+Saved   → git push  → GitHub
