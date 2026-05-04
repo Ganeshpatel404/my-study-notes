@@ -1,0 +1,19 @@
+# Git Branching 🌿
+
+## Commands
+git branch              # see branches
+git branch new-feature  # create
+git checkout new-feature # switch
+git checkout -b new-feature # create+switch
+git merge new-feature   # merge
+git branch -d new-feature # delete
+
+## Simple Flow
+main branch    → live code
+feature branch → new work
+
+## Steps
+1. Create branch
+2. Write code
+3. Merge to main
+4. Delete branch
