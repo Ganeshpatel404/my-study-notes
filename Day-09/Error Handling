@@ -1,0 +1,25 @@
+# Error Handling ⚠️
+
+## Basic Try/Except
+try:
+    x = int(input("Number: "))
+    print(10 / x)
+except ZeroDivisionError:
+    print("Cannot divide by 0!")
+except ValueError:
+    print("Enter numbers only!")
+
+## Finally
+try:
+    print("trying...")
+except:
+    print("error!")
+finally:
+    print("always runs!")
+
+## Common Errors
+ZeroDivisionError → divide by 0
+ValueError        → wrong type
+FileNotFoundError → file missing
+IndexError        → list index wrong
+KeyError          → dict key missing
