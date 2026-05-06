@@ -1,0 +1,23 @@
+# AI & ML Basics 🤖
+
+## Simple Definition
+AI = machines think like humans
+ML = machines learn from data
+DL = ML using neural networks
+
+## Types of ML
+Supervised   → learns from labels
+Unsupervised → finds patterns
+Reinforcement → learns from rewards
+
+## Key Terms
+Dataset  → collection of data
+Model    → trained algorithm
+Training → teaching the model
+Accuracy → how correct model is
+
+## Python AI Libraries
+numpy      → numbers & arrays
+pandas     → data analysis
+matplotlib → charts & graphs
+sklearn    → machine learning
