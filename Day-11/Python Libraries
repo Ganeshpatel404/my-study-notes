@@ -1,0 +1,22 @@
+# Python Libraries 📚
+
+## NumPy
+import numpy as np
+arr = np.array([1,2,3,4,5])
+print(arr.mean())  # average
+print(arr.sum())   # total
+
+## Pandas
+import pandas as pd
+data = {"name":["Ganesh","Raj"],
+        "age":[21,22]}
+df = pd.DataFrame(data)
+print(df)
+
+## Matplotlib
+import matplotlib.pyplot as plt
+plt.plot([1,2,3],[4,5,6])
+plt.show()
+
+## Install any library
+pip install library-name
