@@ -1,0 +1,47 @@
+# OOP — Object Oriented Python 🏗️
+
+okay so today i finally sat down
+and understood OOP properly.
+its actually not that hard lol
+
+## basically OOP has 4 things:
+- Class → blueprint
+- Object → real thing from blueprint
+- Method → function inside class
+- Attribute → variable inside class
+
+## simple example i tried:
+
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
+    def bark(self):
+        print(f"{self.name} says woof!")
+
+dog1 = Dog("Bruno")
+dog1.bark()  # Bruno says woof!
+
+## inheritance (this was cool)
+class Animal:
+    def breathe(self):
+        print("breathing...")
+
+class Cat(Animal):  # Cat gets Animal methods
+    def meow(self):
+        print("meow!")
+
+cat = Cat()
+cat.breathe()  # works! inherited!
+cat.meow()
+
+## what i understood today:
+→ class is like a template
+→ self means "this object"
+→ __init__ runs automatically
+→ child class gets parent methods
+
+## still confusing:
+→ super() keyword
+→ multiple inheritance
+→ will study tomorrow maybe
