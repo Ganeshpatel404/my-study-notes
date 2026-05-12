@@ -1,19 +1,31 @@
 # 📚 My Study Notes
 
 ![Status](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
-![Days](https://img.shields.io/badge/Challenge-12%20Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Challenge-20%20Days-orange?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
 ![Git](https://img.shields.io/badge/Git-Learning-red?style=for-the-badge&logo=git)
-
-👨‍💻 About
-Hi I am **Ganesh Patel** 👋
-This is my personal study notes repo.
-I write short & simple notes every day
-on Python, Git, GitHub & AI/ML. 📝
+![AI](https://img.shields.io/badge/AI-Exploring-purple?style=for-the-badge)
 
 ---
 
-## 📅 Progress
+## 👋 About Me
+Hi I am **Ganesh Patel**
+This is my personal study notes repo
+where I write short & simple notes
+every day on Python, Git, GitHub
+& AI/ML concepts 📝
+
+---
+
+🎯 Why This Repo?
+- 📝 Write what I learn daily
+- 🟢 Stay consistent on GitHub
+- 💻 Learn Python & AI deeply
+- 🔥 Build strong foundation
+
+---
+
+📅 Progress Tracker
 
 | Day | Topic | Status |
 |-----|-------|--------|
@@ -29,7 +41,15 @@ on Python, Git, GitHub & AI/ML. 📝
 | Day 10 | 🤖 AI & ML Basics | ✅ Done |
 | Day 11 | 📚 Python Libraries | ✅ Done |
 | Day 12 | 🔥 Quick Revision | ✅ Done |
+| Day 13 | 🏗️ Python OOP | ✅ Done |
+| Day 14 | ⚡ Decorators & Generators | ✅ Done |
+| Day 15 | 📁 File Handling + JSON | ✅ Done |
+| Day 16 | 🌐 APIs with Python | ✅ Done |
+| Day 17 | 🔢 NumPy Deep Dive | ✅ Done |
+| Day 18 | 🐼 Pandas Deep Dive | ✅ Done |
+| Day 19 | 🔥 Git Advanced | ✅ Done |
+| Day 20 | 🤖 AI Automation | ✅ Done |
 
 ---
 
-## 🛠️ Topics Covered
+## 📁 Repo Structure
