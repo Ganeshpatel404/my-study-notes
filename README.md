@@ -50,6 +50,5 @@ every day on Python, Git, GitHub
 | Day 19 | 🔥 Git Advanced | ✅ Done |
 | Day 20 | 🤖 AI Automation | ✅ Done |
 
----
 
 ## 📁 Repo Structure
