@@ -1,0 +1,56 @@
+# Decorators & Generators ⚡
+
+these two things looked scary
+but they're actually pretty clean
+
+---
+
+## Decorators
+basically a function inside a function
+used to add extra behaviour
+
+def my_decorator(func):
+    def wrapper():
+        print("before function")
+        func()
+        print("after function")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("hello!")
+
+say_hello()
+# before function
+# hello!
+# after function
+
+## real world use:
+→ timing functions
+→ login required checks
+→ logging
+
+---
+
+## Generators
+like a list but generates
+one value at a time
+saves memory!
+
+def count_up(n):
+    for i in range(n):
+        yield i  # yield not return!
+
+gen = count_up(5)
+print(next(gen))  # 0
+print(next(gen))  # 1
+print(next(gen))  # 2
+
+## why generators?
+→ don't load everything in memory
+→ great for large data
+→ used a lot in AI/ML pipelines
+
+## key difference
+return → gives value, stops function
+yield  → gives value, pauses function
