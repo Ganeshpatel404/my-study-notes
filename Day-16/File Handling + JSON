@@ -1,0 +1,48 @@
+# File Handling + JSON 📁
+
+today i combined file handling
+with JSON because they go together
+especially in AI projects
+
+---
+
+## File Handling (quick recap)
+with open("file.txt", "w") as f:
+    f.write("hello ganesh")
+
+with open("file.txt", "r") as f:
+    print(f.read())
+
+## modes i use most:
+"r"  → read
+"w"  → write (overwrites!)
+"a"  → append (adds to end)
+
+---
+
+## JSON (this is important!)
+JSON = JavaScript Object Notation
+basically python dictionary
+but used everywhere in APIs
+
+import json
+
+## dict to json string
+data = {"name": "ganesh", "age": 21}
+json_string = json.dumps(data)
+print(json_string)
+
+## save json to file
+with open("data.json", "w") as f:
+    json.dump(data, f, indent=4)
+
+## read json from file
+with open("data.json", "r") as f:
+    loaded = json.load(f)
+    print(loaded["name"])  # ganesh
+
+## why JSON matters:
+→ APIs return JSON responses
+→ AI models save configs in JSON
+→ used everywhere in web dev
+→ very important to know!
