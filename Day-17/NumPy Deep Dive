@@ -1,0 +1,50 @@
+# NumPy — Properly This Time 🔢
+
+i used numpy before but never
+properly understood it
+today i went deep
+
+## why numpy?
+→ faster than normal python lists
+→ math operations on whole arrays
+→ backbone of AI/ML in python
+
+import numpy as np
+
+## creating arrays
+arr = np.array([1, 2, 3, 4, 5])
+zeros = np.zeros(5)       # [0,0,0,0,0]
+ones = np.ones(5)         # [1,1,1,1,1]
+rng = np.arange(0, 10, 2) # [0,2,4,6,8]
+
+## 2D array (matrix)
+matrix = np.array([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+])
+print(matrix.shape)   # (3, 3)
+print(matrix[0][1])   # 2 (row 0, col 1)
+
+## math operations
+arr = np.array([1,2,3,4,5])
+print(arr + 10)      # adds 10 to all
+print(arr * 2)       # multiplies all
+print(arr.mean())    # average
+print(arr.std())     # standard deviation
+print(arr.max())     # maximum
+print(arr.min())     # minimum
+
+## reshape (used a lot in ML!)
+arr = np.arange(12)
+reshaped = arr.reshape(3, 4)
+print(reshaped)
+
+## random numbers
+rand = np.random.randint(0, 100, size=5)
+print(rand)
+
+## what i noticed:
+→ ML models take numpy arrays as input
+→ images are just numpy arrays!
+→ understanding shape is very important
