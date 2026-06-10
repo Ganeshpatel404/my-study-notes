@@ -1,0 +1,50 @@
+# Pandas — Data Like a Pro 🐼
+
+pandas is literally everywhere
+in data science and ML
+today i actually practiced it
+
+import pandas as pd
+
+## Series (1D data)
+s = pd.Series([10, 20, 30, 40])
+print(s)
+print(s[0])   # 10
+
+## DataFrame (2D data like excel)
+data = {
+    "name": ["Ganesh", "Raj", "Sam"],
+    "age": [21, 22, 20],
+    "score": [85, 90, 78]
+}
+df = pd.DataFrame(data)
+
+## exploring data
+print(df.head())      # first 5 rows
+print(df.tail())      # last 5 rows
+print(df.shape)       # rows, columns
+print(df.info())      # data types
+print(df.describe())  # statistics
+
+## selecting data
+print(df["name"])           # one column
+print(df[["name","score"]]) # multiple
+print(df.iloc[0])           # first row
+print(df.iloc[0:2])         # first 2 rows
+
+## filtering (super useful!)
+high_score = df[df["score"] > 80]
+print(high_score)
+
+## handling missing data
+df.dropna()           # remove missing
+df.fillna(0)          # fill with 0
+
+## sorting
+df.sort_values("score", ascending=False)
+
+## what clicked today:
+→ think of DataFrame as excel sheet
+→ filtering is like SQL WHERE
+→ describe() is your best friend
+→ always check shape and info first
