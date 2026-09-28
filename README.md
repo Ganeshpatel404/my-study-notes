@@ -6,14 +6,14 @@
 ![Git](https://img.shields.io/badge/Git-Learning-red?style=for-the-badge&logo=git)
 ![AI](https://img.shields.io/badge/AI-Exploring-purple?style=for-the-badge)
 
----
+
 
 ## 👋 About Me
 Hi I am **Ganesh Patel**
 This is my personal study notes repo
 where I write short & simple notes
 every day on Python, Git, GitHub
-& AI/ML concepts 📝
+& AI/ML concepts 
 
 ---
 
@@ -51,4 +51,4 @@ every day on Python, Git, GitHub
 | Day 20 | 🤖 AI Automation | ✅ Done |
 
 
-## 📁 Repo Structure
+## 📁 Repo Structure 
